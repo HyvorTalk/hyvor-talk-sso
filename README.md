@@ -5,7 +5,7 @@ This repository includes several scripts in different languages on how to genera
 To learn how Single Sign-on works, please see this tutorial.
 https://talk.hyvor.com/documentation/sso/set-up
 
-There the code is explained with PHP. If you need an alternative, please check this repository.
+In that tutorial, the back-end code is explained with PHP. If you need an alternative, please check this repository.
 
 * Ruby - `sso.rb`
 
