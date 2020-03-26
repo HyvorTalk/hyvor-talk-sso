@@ -7,6 +7,7 @@ https://talk.hyvor.com/documentation/sso/set-up
 
 In that tutorial, the back-end code is explained with PHP. If you need an alternative, please check this repository.
 
+* PHP - `sso.php`
 * Ruby - `sso.rb`
 
 We'll add more languages later.
