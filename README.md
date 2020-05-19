@@ -9,5 +9,7 @@ In that tutorial, the back-end code is explained with PHP. If you need an altern
 
 * PHP - `sso.php`
 * Ruby - `sso.rb`
+* Javascript (NodeJS)  - `sso.js`
 
-We'll add more languages later.
+We'll eventually add more languages.
+

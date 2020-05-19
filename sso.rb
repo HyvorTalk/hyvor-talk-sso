@@ -3,7 +3,6 @@ require 'openssl'
 require 'json'
 
 HYVOR_TALK_SSO_PRIVATE_KEY = 'MY_PRIVATE_KEY'
-HYVOR_TALK_SSO_ID = 1
 
 userData = {}
 
@@ -41,7 +40,6 @@ installationCode = <<-END
             url: false,
             id: false,
             sso: {
-                id: #{HYVOR_TALK_SSO_ID},
                 hash: "#{signon[:hash]}",
                 userData: "#{signon[:userData]}",
                 loginURL: "https://example.com/login",
