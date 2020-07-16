@@ -3,7 +3,7 @@ import hmac
 from hashlib import sha1
 import json
 
-HYVOR_TALK_SSO_PRIVATE_KEY = b'3b59705bf8db8cf2555a32869724189f'
+HYVOR_TALK_SSO_PRIVATE_KEY = b'MY_PRIVATE_KEY'
 
 def hyvorTalkSignon(user):
     userData = base64.b64encode(json.dumps(user).encode()).decode()
