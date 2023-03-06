@@ -7,7 +7,7 @@ HYVOR_TALK_SSO_PRIVATE_KEY = b'MY_PRIVATE_KEY'
 
 def hyvorTalkSignon(user):
     userData = base64.b64encode(json.dumps(user).encode()).decode()
-    hash = hmac.new(HYVOR_TALK_SSO_PRIVATE_KEY, userData.encode(), sha1).hexdigest().rstrip("\n")
+    hash = hmac.new(HYVOR_TALK_SSO_PRIVATE_KEY, userData.encode(), digestmod="sha1").hexdigest().rstrip("\n")
 
     return {
         'hash': hash,
